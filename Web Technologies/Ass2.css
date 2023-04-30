@@ -1,0 +1,71 @@
+	body {
+		background-image: url("istockphoto-1341437653-170667a.jpg");
+		background-repeat: repeat;
+		font-size: 16px;
+	}
+
+	@media (max-width: 768px) {
+		body {
+			font-size: 14px;
+		}
+	}
+
+	@media (max-width: 480px) {
+		body {
+			font-size: 12px;
+		}
+	}
+
+	header {
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 36px;
+		color: #fff;
+	}
+
+	#Intro {
+		text-align: center;
+		color: rgb(199, 196, 196);
+	}
+
+	#Hobbies {
+		text-align: center;
+		color: #fff;
+	}
+
+	.images {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.images p {
+		margin: 10px 0;
+	}
+
+	.images img {
+		margin: 10px;
+		max-width: 100%;
+		height: auto;
+	}
+
+	#contact {
+		text-align: center;
+		color: #fff;
+		margin-bottom: 50px;
+	}
+
+	footer {
+		background-color: #333;
+		text-align: center;
+		color: #fff;
+		padding: 10px;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+	}
+
